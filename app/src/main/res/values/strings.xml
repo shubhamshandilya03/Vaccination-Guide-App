@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">vaccination Guide app</string>
+    <string name="hello_world">Hello World</string>
+    <string name="indian_agricultural_statistics_research_institute">Indian Agricultural Statistics Research Institute</string>
+    <string name="indian_veterinary_research_institute">Indian Veterinary Research Institute</string>
+    <string name="icar_logo">icar_logo</string>
+    <string name="icar">icar</string>
+    <string name="vaccination">vaccination</string>
+    <string name="vaccination_image">vsccination_image</string>
+    <string name="ivri_image">ivri_image</string>
+    <string name="todo">TODO</string>
+</resources>
