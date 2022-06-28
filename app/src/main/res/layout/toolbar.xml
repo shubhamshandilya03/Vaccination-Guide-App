@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
     android:background="#DE3E70">
 
     <LinearLayout
@@ -13,7 +14,7 @@
         >
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/back"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center|center_horizontal|center_vertical"
@@ -21,14 +22,16 @@
             android:foregroundGravity="center_vertical|center|center_horizontal"
             android:paddingLeft="5dp"
             android:paddingRight="10dp"
-            app:srcCompat="@drawable/ic_baseline_menu_24"
-            tools:ignore="VectorDrawableCompat" />
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="VectorDrawableCompat"
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:text="Vaccination Guide App"

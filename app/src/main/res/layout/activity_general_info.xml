@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".generalInfo"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/GNHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#E613EA"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="General Information"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/vaccine_gn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#E613EA"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Vaccine"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/type_vaccine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#E613EA"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Types of Vaccine"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/adv_vaccine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#E613EA"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Advantages of Vaccines"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/Imp_points_vaccination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#E613EA"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Important Points during Vaccination"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/vaccine_failure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#E613EA"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Causes Of Vaccine Failure"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

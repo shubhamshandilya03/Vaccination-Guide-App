@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gi_types_vaccine"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#E613EA"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="Types of Vaccines"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#D81B1B"
+        android:text="Inactivated vaccine/killed vaccine"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:text="An Inactivated vaccine/killed vaccine is a vaccine consisting of representative strain of pathogen which are inactivated or killed by using any physical or chemical mathods so that
+         organisms totally lose its pathogenicity and/or virulence." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#D81B1B"
+        android:text="Live Vaccines"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:text="Live vaccines contain live organism causing diseases which is modified either in nature or laboratory in such a way
+        that its loses its ability to cause disease but retains ability to elicit immune response in the body to protect against such diseases." />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#D81B1B"
+        android:text="Recombinant vaccines"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:text="Recombinant vaccines are biological preparations made using recombinant DNA technology that has characteristics of inactivated or attenuated vaccines and generally consists of exprees proteins." />
+
+
+</LinearLayout>

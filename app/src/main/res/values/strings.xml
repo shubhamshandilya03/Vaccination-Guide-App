@@ -9,4 +9,7 @@
     <string name="vaccination_image">vsccination_image</string>
     <string name="ivri_image">ivri_image</string>
     <string name="todo">TODO</string>
+    <string name="about1"><![CDATA[1.The IVRI-vaccination Guide designed and developed by ICAR-IVRI, Izatnager,UP &IASRI ,New Delhi is targeted to import knowledge and skills to Graduating Veterinaries ,Field Veterinary Officers, Paravets,Livestock,Poultry & Pet Owners about vaccination in domestic animals,poultry and pets.]]></string>
+    <string name="About2">2.The App provides basic information about vaccination in livestock,poultry and pets and covers specific information about vaccination related to all the major bacterial and viral diseases.For each of the disease in various species,the information on the causative agents,types of vaccines available, serotype/strain used for the vaccines ,vaccination schedule and commercially available vaccines are provided in the app.</string>
+    <string name="About3">3.The App also provides detailed information about the government and private institutions involved in vaccine production in the country.</string>
 </resources>

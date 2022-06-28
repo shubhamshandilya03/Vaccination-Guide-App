@@ -8,11 +8,11 @@
     android:id="@+id/drawer_layout"
     android:orientation="horizontal">
 
-    <include layout="@layout/toolbar"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+        <include layout="@layout/toolbar"/>
 
         <ImageView
             android:id="@+id/imageView"
@@ -23,8 +23,8 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
 
-            app:srcCompat="@drawable/vaccination"
-            android:contentDescription="@string/vaccination_image" />
+            android:contentDescription="@string/vaccination_image"
+            app:srcCompat="@drawable/vaccination" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,11 +46,11 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="2dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/ivri_image"
                 app:srcCompat="@drawable/ivri"
-                tools:ignore="NestedWeights"
-                android:contentDescription="@string/ivri_image" />
+                tools:ignore="NestedWeights" />
 
             <ImageView
                 android:id="@+id/iari_image"
@@ -59,10 +59,10 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="2dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/iari"
-                android:contentDescription="@string/todo" />
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/iari" />
 
             <ImageView
                 android:id="@+id/icar"
@@ -71,11 +71,21 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="2dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/icarlogo"
-                android:contentDescription="@string/icar" />
+                android:contentDescription="@string/icar"
+                app:srcCompat="@drawable/icarlogo" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/explore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Explore"
+            android:textStyle="bold"
+            app:cornerRadius="5dp" />
 
         <TextView
             android:id="@+id/textView2"
